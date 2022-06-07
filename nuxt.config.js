@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'blue-sphere',
+    title: '95 Degrees - Discord Community',
     htmlAttrs: {
       lang: 'en'
     },
