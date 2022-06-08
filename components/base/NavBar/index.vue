@@ -11,6 +11,10 @@
 </template>
 
 <style scoped>
+    #navbar {
+        z-index:99999;
+    }
+
     .bg-color {
         background-color:rgba(249, 250, 251, 0.7);
     }
