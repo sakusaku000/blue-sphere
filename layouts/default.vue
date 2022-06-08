@@ -14,7 +14,7 @@ export default {
     }
 
     ::selection {
-        @apply bg-brand-light text-gray-800;
+        @apply bg-gray-800 text-gray-50;
     }
 
     .title {

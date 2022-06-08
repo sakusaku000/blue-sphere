@@ -7,6 +7,9 @@
         <HomeWhoAreWe/>
         <!-- server features -->
         <HomeFeatures/>
+
+        <!-- Meet our staff -->
+        <HomeMeetOurStaff/>
     </div>
 </template>
 
