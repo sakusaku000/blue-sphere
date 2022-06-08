@@ -1,5 +1,5 @@
 <template>
-    <a href="#navbar">
+    <a href="#who-are-we">
         <IconsDownarrow class="w-8 z-50 mt-20 -mb-32 bounce-anim filter drop-shadow"/>
     </a>
 </template>

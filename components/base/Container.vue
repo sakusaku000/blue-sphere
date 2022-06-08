@@ -1,5 +1,11 @@
 <template>
-    <div class="container mx-auto p-20">
+    <section class="container mx-auto p-20">
         <slot/>
-    </div>
+    </section>
 </template>
+
+<script>
+export default {
+    name:"PageContainer"
+}
+</script>
