@@ -9,8 +9,12 @@ export default {
 </script>
 
 <style>
+    html {
+        scroll-behavior: smooth;
+    }
+    
     body {
-        @apply bg-gray-100
+        @apply bg-gray-100;
     }
 
     ::selection {

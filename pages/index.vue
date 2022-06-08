@@ -2,6 +2,9 @@
     <div id="main">
         <!-- landing -->
         <HomeLanding/>
+
+        <!-- Navbar (sticky after landing) -->
+        <NavBar/>
         
         <!-- who are we? -->
         <HomeWhoAreWe/>

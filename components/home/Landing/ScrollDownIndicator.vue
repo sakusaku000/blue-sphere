@@ -1,5 +1,7 @@
 <template>
-    <IconsDownarrow class="w-8 z-50 mt-20 -mb-32 bounce-anim filter drop-shadow"/>
+    <a href="#navbar">
+        <IconsDownarrow class="w-8 z-50 mt-20 -mb-32 bounce-anim filter drop-shadow"/>
+    </a>
 </template>
 
 <style scoped>
