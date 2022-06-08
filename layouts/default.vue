@@ -18,7 +18,7 @@ export default {
     }
 
     ::selection {
-        @apply bg-gray-800 text-gray-50;
+        @apply bg-gray-900 text-white;
     }
 
     .title {

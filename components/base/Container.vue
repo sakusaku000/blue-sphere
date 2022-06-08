@@ -1,5 +1,5 @@
 <template>
-    <section class="container mx-auto p-20">
+    <section class="container mx-auto py-40 px-20">
         <slot/>
     </section>
 </template>

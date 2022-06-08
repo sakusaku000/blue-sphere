@@ -5,7 +5,7 @@
             <NavBarLogo/>
 
             <!-- links -->
-            <NavBarLinks/>
+            <NavBarLandingSectionLinks/>
         </div>
     </div>
 </template>
@@ -16,6 +16,6 @@
     }
 
     .bg-color {
-        background-color:rgba(249, 250, 251, 0.7);
+        background-color:rgba(249, 250, 251, 0.836);
     }
 </style>
