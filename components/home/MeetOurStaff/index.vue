@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-brand-light text-white">
+    <div class="bg-brand-light text-white" id="meet-our-staff">
         <Container class="filter drop-shadow-xl">
             <h1 class="title text-current text-center">meet our staff</h1>
 
