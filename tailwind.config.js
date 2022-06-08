@@ -8,7 +8,10 @@ module.exports = {
         },
         extend:{
             colors:{
-                brand:"#95cafe"
+                brand:{
+                    light:"#95cafe",
+                    dark:"#8bbaf4"
+                }
             }
         }
     },

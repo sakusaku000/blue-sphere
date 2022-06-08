@@ -2,8 +2,11 @@
     <div id="main">
         <!-- landing -->
         <HomeLanding/>
-        <img src="https://bannerista.95degrees.cafe/among-us-twerk.gif" alt="among us">
-        <span>it not finished</span>
+        
+        <!-- who are we? -->
+        <HomeWhoAreWe/>
+        <!-- server features -->
+        <HomeFeatures/>
     </div>
 </template>
 
