@@ -1,0 +1,20 @@
+<template>
+    <IconsDownarrow class="w-8 z-50 absolute bottom-10 bounce-anim filter drop-shadow"/>
+</template>
+
+<style scoped>
+    .bounce-anim {
+        animation:bounce-anim 1s ease-in-out forwards infinite;
+    }
+    @keyframes bounce-anim {
+        0% {
+            transform:translateY(0px);
+        }
+        50% {
+            transform:translateY(8px);
+        }
+        100% {
+            transform:translateY(0px);
+        }
+    }
+</style>
