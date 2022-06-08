@@ -1,9 +1,9 @@
 <template>
-    <div class="transform hover:scale-105 duration-200 group">
-        <img class="rounded-full shadow-sm w-32" :src="icon" :alt="`${name}'s avatar`">
-        <div class="bgc rounded-lg text-center absolute bottom-0 left-0 right-0 -mx-4 -mb-8 opacity-0 group-hover:opacity-100 duration-200">
-            <h1 class="font-bold">{{name}}</h1>
-            <h2 class="text-xs">{{role}}</h2>
+    <div class="transform hover:scale-105 duration-200 group select-none">
+        <img class="rounded-full shadow-sm" :class="(regular) ? 'w-20' : 'w-32'" :src="icon" :alt="`${name}'s avatar`" draggable="false">
+        <div class="p-1 rounded-lg text-center absolute bottom-0 left-0 right-0 opacity-0 group-hover:opacity-100 duration-200 filter drop-shadow-sm" :class="(regular) ? '-mx-8 -mb-8' : '-mx-4 -mb-14'">
+            <h1 class="font-bold" :class="(regular) ? 'text-sm' : ''">{{name}}</h1>
+            <h2 class="text-xs" v-if="role">{{role}}</h2>
         </div>
     </div>
 </template>
@@ -15,7 +15,7 @@ export default {
         name:String,
         role:String,
         icon:String,
-        smaller:Boolean
+        regular:Boolean
     }
 }
 </script>
