@@ -1,5 +1,5 @@
 <template>
-    <IconsDownarrow class="w-8 z-50 absolute bottom-10 bounce-anim filter drop-shadow"/>
+    <IconsDownarrow class="w-8 z-50 mt-20 -mb-32 bounce-anim filter drop-shadow"/>
 </template>
 
 <style scoped>

@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-brand text-white h-screen">
-        <div class="h-full container mx-auto flex flex-col items-center justify-center select-none z-50">
+    <div id="landing" class="bg-brand text-white h-screen">
+        <div class="h-full flex flex-col items-center justify-center select-none z-50">
             <HomeLandingBackground/>
             <HomeLandingLogo/>
             <HomeLandingJoinSocials/>
