@@ -3,7 +3,7 @@
         <Container class="filter drop-shadow-xl">
             <h1 class="title text-current text-center">meet our staff</h1>
 
-            <div class="flex items-center justify-between">
+            <div class="grid grid-cols-6 gap-6">
                 <!-- nath -->
                 <HomeMeetOurStaffCard class="col-span-3" 
                     name="Nath#0095" 
