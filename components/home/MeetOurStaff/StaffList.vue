@@ -5,6 +5,7 @@
             name="Nath" 
             role="Manager"
             icon="https://cdn.discordapp.com/avatars/117369638320340998/43ab183fe6a65b8fcd489c719341d5f4.png?size=256"
+            socialLink="https://thisisntnath.carrd.co/"
         />
 
         <!-- jae -->
@@ -19,6 +20,7 @@
             name="TagmanBeesley" 
             role="Barista"
             icon="https://cdn.discordapp.com/avatars/147801925230788608/6efdff3a65d41f684e454b87b40eb828.png?size=256"
+            socialLink="https://twitter.com/tagmanbeesley"
         />
 
         <!-- swati -->
@@ -40,6 +42,7 @@
             name="saku" 
             role="Barista / Developer"
             icon="https://cdn.discordapp.com/avatars/255673616342056961/03de51ff5d028628ef0290a46048016a.png?size=256"
+            socialLink="https://saku.dev"
         />
 
         <!-- void -->
