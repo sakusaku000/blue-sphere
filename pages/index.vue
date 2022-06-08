@@ -2,7 +2,8 @@
     <div id="main">
         <!-- landing -->
         <HomeLanding/>
-        <h1>Hello</h1>
+        <img src="https://bannerista.95degrees.cafe/among-us-twerk.gif" alt="among us">
+        <span>it not finished</span>
     </div>
 </template>
 
