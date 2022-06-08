@@ -1,7 +1,13 @@
 <template>
-  <Tutorial/>
+    <div id="main">
+        <!-- landing -->
+        <HomeLanding/>
+        <h1>Hello</h1>
+    </div>
 </template>
 
 <script>
-export default {}
+export default {
+    name:"IndexPage"
+}
 </script>
