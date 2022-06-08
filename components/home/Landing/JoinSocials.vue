@@ -14,6 +14,9 @@
                 <a href="https://www.youtube.com/channel/UCHurQPVUpKgkdW1cmf3SvPg" target="_blank" title="YouTube">
                     <LogoYoutube class="w-8 social-link"/>
                 </a>
+                <a href="https://www.instagram.com/95degreesdiscord/" target="_blank" title="Instagram">
+                    <LogoInstagram class="w-7 social-link"/>
+                </a>
                 <a href="https://medium.com/95-degrees-updates" target="_blank" title="Medium Blog">
                     <LogoMedium class="w-8 social-link"/>
                 </a>
