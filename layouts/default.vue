@@ -1,5 +1,9 @@
 <template>
-    <Nuxt/>
+    <div>
+        <Nuxt/>
+
+        <FooterSection/>
+    </div>
 </template>
 
 <script>
