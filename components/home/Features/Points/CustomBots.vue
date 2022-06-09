@@ -1,9 +1,7 @@
 <template>
     <div>
         <Card class="features-box-layout-left gap-10">
-            <div class="icon-container bg-brand-dark">
-                <IconsRobot/>
-            </div>
+            <IconsRobot class="icon-container bg-brand-dark"/>
 
             <div class="relative lg:-left-12">
                 <h1 class="title title-smaller">custom-coded bots</h1>

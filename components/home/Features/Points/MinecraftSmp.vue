@@ -8,9 +8,7 @@
                 </p>
             </div>
 
-            <div class="icon-container icon-container-right bg-brand-dark">
-                <IconsCube/>
-            </div>
+            <IconsCube class="icon-container icon-container-right bg-brand-dark"/>
         </Card>
     </div>
 </template>

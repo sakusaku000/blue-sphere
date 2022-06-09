@@ -9,9 +9,7 @@
                 </p>
             </div>
 
-            <div class="icon-container icon-container-right bg-brand-dark">
-                <IconsCalendar/>
-            </div>
+            <IconsCalendar class="icon-container icon-container-right bg-brand-dark"/>
         </Card>
     </div>
 </template>
