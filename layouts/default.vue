@@ -31,17 +31,26 @@ export default {
     }
 
     .icon-container {
-        @apply w-24 h-24 p-4 bg-gray-500 text-white rounded-xl shadow-xl transform -rotate-6 relative lg:-top-12 lg:-left-12 flex items-center justify-center;
+        @apply w-16 h-16 md:w-24 md:h-24 p-4 bg-gray-500 text-white rounded-xl shadow-xl transform -rotate-6 relative lg:-top-12 lg:-left-12 flex items-center justify-center;
     }
     .icon-container-right {
-        @apply rotate-6 lg:-top-12 lg:left-12
+        @apply rotate-6 lg:-top-12 -left-3 lg:left-12
     }
     .features-box-layout-left {
         @apply grid;
-        grid-template-columns:100px 1fr;
+        grid-template-columns:50px 1fr;
     }
     .features-box-layout-right {
         @apply grid;
-        grid-template-columns:1fr 100px;
+        grid-template-columns:1fr 50px;
+    }
+
+    @media (min-width: 768px) {
+        .features-box-layout-left {
+            grid-template-columns:100px 1fr;
+        }
+        .features-box-layout-right {
+            grid-template-columns:1fr 100px;
+        }
     }
 </style>
