@@ -3,7 +3,7 @@
         <Container id="merch" class="filter drop-shadow-xl text-center md:text-left">
             <div class="flex items-center justify-center md:justify-between flex-wrap">
                 <div>
-                    <h1 class="title text-current">we have merch!</h1>
+                    <h1 class="title text-current flex justify-center items-center gap-4"><IconsShirt class="w-10 md:w-16 mt-2"/> we have merch!</h1>
                     <p class="text-lg">
                     sport the 95 degrees logo on various items like shirts and stickers! 
                     </p>

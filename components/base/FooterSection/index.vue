@@ -6,7 +6,7 @@
             <HomeLandingJoinSocials class="-mt-2 mb-2"/>
         </div>
 
-        <p>© 2022 95 Degrees</p>
+        <p class="mt-5">© 2022 95 Degrees</p>
         <p class="text-xs">site created by <a href="https://saku.dev" target="_blank" class="underline">saku</a> 🤍</p>
     </div>
 </template>

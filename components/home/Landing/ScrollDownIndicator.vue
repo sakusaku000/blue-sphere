@@ -1,6 +1,6 @@
 <template>
     <a href="#who-are-we">
-        <IconsDownarrow class="w-8 z-50 mt-20 -mb-32 bounce-anim filter drop-shadow"/>
+        <IconsDownarrow class="w-8 z-50 mt-10 mb-10 bounce-anim filter drop-shadow"/>
     </a>
 </template>
 
