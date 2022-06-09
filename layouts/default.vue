@@ -13,12 +13,9 @@ export default {
 </script>
 
 <style>
-    html {
+    html, body {
         scroll-behavior: smooth;
         overflow-x:hidden;
-    }
-    
-    body {
         @apply bg-gray-100;
     }
 

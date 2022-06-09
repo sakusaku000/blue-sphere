@@ -1,9 +1,9 @@
 <template>
     <div class="pointer-events-none">
-        <div class="absolute top-0 left-0 right-0 bottom-0 grad-ov">
+        <div class="absolute top-0 left-0 right-0 bottom-0 grad-ov hidden md:block">
             <video autoplay muted loop playsinline src="~/assets/landing/gradient-sm.mp4" class="w-full h-full"></video>
         </div>
-        <div class="absolute top-0 left-0 right-0 bottom-0 darken-ov"></div>
+        <div class="absolute top-0 left-0 right-0 bottom-0 darken-ov hidden md:block"></div>
     </div>
 </template>
 
