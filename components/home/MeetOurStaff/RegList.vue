@@ -1,5 +1,5 @@
 <template>
-    <div id="reg-list" class="flex items-center justify-between">
+    <div id="reg-list" class="flex items-center flex-wrap justify-around xl:justify-between">
         <!-- ana -->
         <HomeMeetOurStaffCard class="col-span-3" 
             name="AnaArsonist"

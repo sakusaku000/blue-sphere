@@ -1,5 +1,5 @@
 <template>
-    <div id="navbar" class="p-2 sticky top-0 backdrop-filter backdrop-blur bg-color shadow-sm">
+    <div id="navbar" class="p-2 hidden md:block sticky top-0 backdrop-filter backdrop-blur bg-color shadow-sm">
         <div class="container mx-auto px-20 flex items-center">
             <!-- logo -->
             <NavBarLogo/>

@@ -26,6 +26,6 @@ export default {
     }
 
     .title {
-        @apply text-6xl text-brand-dark font-bold font-title mb-8
+        @apply text-4xl md:text-6xl text-brand-dark font-bold font-title mb-8
     }
 </style>

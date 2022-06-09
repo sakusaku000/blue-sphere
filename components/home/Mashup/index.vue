@@ -1,14 +1,14 @@
 <template>
     <Container id="mashup">
-        <div class="grid grid-cols-2 gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-center md:text-left">
             <div>
-                <img class="mb-8 w-5/6" src="~/assets/logo/mashup2022.png" alt="95 Degrees Mashup 2022" draggable="false">
+                <img class="mb-8 md:w-5/6" src="~/assets/logo/mashup2022.png" alt="95 Degrees Mashup 2022" draggable="false">
                 <h2 class="text-xl font-bold font-title">our most ambitious show ever!</h2>
                 <p class="mb-2">
                     the 95 degrees mashup is a yearly celebration of our community, with awards, community highlights, announcements, giveaways and so much more in one live, interactive stream!
                 </p>
                 <p>
-                    this year we celebrated six years of our community,<br>and if you haven't seen mashup 2022 yet, make sure you do!
+                    this year we celebrated six years of our community, and if you haven't seen mashup 2022 yet, make sure you do!
                 </p>
             </div>
             <div>
