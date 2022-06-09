@@ -1,5 +1,5 @@
 <template>
-    <div class="grid-bg text-white border-b border-brand-dark">
+    <div class="grid-bg text-white">
         <Container id="who-are-we" class="text-center flex flex-col items-center filter drop-shadow-xl">
             <h1 class="title text-current">who are we?</h1>
             <p class="text-xl max-w-5xl">

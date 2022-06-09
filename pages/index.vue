@@ -13,6 +13,12 @@
 
         <!-- Meet our staff -->
         <HomeMeetOurStaff/>
+
+        <!-- Mashup -->
+        <HomeMashup/>
+
+        <!-- Merch -->
+        <HomeMerch/>
     </div>
 </template>
 
@@ -25,7 +31,7 @@ export default {
             sections.forEach(s => {
                 const top = s.offsetTop;
                 const id = s.getAttribute("id");
-                if (scrollY >= top - 64) {
+                if (scrollY >= top - window.innerHeight/2) {
                     this.$store.commit("nav/updateSection", id);
                 }
             });
