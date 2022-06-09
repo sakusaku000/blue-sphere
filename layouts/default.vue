@@ -15,7 +15,6 @@ export default {
 <style>
     html, body {
         scroll-behavior: smooth;
-        overflow-x:hidden;
         @apply bg-gray-100;
     }
 
