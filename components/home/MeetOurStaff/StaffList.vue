@@ -59,7 +59,7 @@ export default {
     name:"StaffList",
     data() {
         return {
-            url:"https://spd.95degrees.cafe/avatar/"
+            url:"https://api.saku.dev/spin-dash/avatar/"
         }
     }
 }
