@@ -3,7 +3,7 @@
         <form @submit.prevent="sendForm" v-if="!sentForm">
 
             <!-- discord name -->
-            <label for="discord-name">discord Username and tag</label>
+            <label for="discord-name">discord username and tag</label>
             <input type="text" name="discord-name" placeholder="username#0000" v-model="formData.discordName" required>
 
             <!-- appeal reason -->
