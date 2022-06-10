@@ -19,6 +19,9 @@
 
         <!-- Merch -->
         <HomeMerch/>
+
+        <!-- Footer -->
+        <HomeFooterSection/>
     </div>
 </template>
 
