@@ -8,6 +8,9 @@
 <script>
 export default {
     name:"BanAppealView",
-    layout:"secondary"
+    layout:"secondary",
+    head:{
+        title:"Ban Appeal - 95 Degrees"
+    }
 }
 </script>
