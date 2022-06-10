@@ -4,22 +4,22 @@
         <HomeMeetOurStaffCard class="col-span-3" 
             name="Nath" 
             role="Manager"
-            icon="https://cdn.discordapp.com/avatars/117369638320340998/43ab183fe6a65b8fcd489c719341d5f4.png?size=256"
+            :icon="url + '117369638320340998.png'"
             socialLink="https://thisisntnath.carrd.co/"
         />
 
         <!-- jae -->
         <HomeMeetOurStaffCard class="col-span-3" 
             name="jaetpa" 
-            role="Assistant"
-            icon="https://cdn.discordapp.com/avatars/146608140899581952/7f60810fd1f093dd7e55000f48dbdf3b.png?size=256"
+            role="Assistant"            
+            :icon="url + '146608140899581952.png'"
         />
 
         <!-- tag -->
         <HomeMeetOurStaffCard class="col-span-2 col-start-2"
             name="TagmanBeesley" 
             role="Barista"
-            icon="https://cdn.discordapp.com/avatars/147801925230788608/6efdff3a65d41f684e454b87b40eb828.png?size=256"
+            :icon="url + '147801925230788608.png'"
             socialLink="https://twitter.com/tagmanbeesley"
         />
 
@@ -27,21 +27,21 @@
         <HomeMeetOurStaffCard class="col-span-2"
             name="uqlysoftie" 
             role="Barista"
-            icon="https://cdn.discordapp.com/avatars/415080865236779010/c4596aabe463487c48eef0cb0cf98030.png?size=256"
+            :icon="url + '415080865236779010.png'"
         />
 
         <!-- koli -->
         <HomeMeetOurStaffCard class="col-span-2"
             name=".kolipop" 
             role="Barista"
-            icon="https://cdn.discordapp.com/avatars/235834280138375173/9c8828e9b1d8fbec67a2ecf12100c816.png?size=256"
+            :icon="url + '235834280138375173.png'"
         />
 
         <!-- saku -->
         <HomeMeetOurStaffCard class="col-span-2"
             name="saku" 
             role="Barista / Developer"
-            icon="https://cdn.discordapp.com/avatars/255673616342056961/03de51ff5d028628ef0290a46048016a.png?size=256"
+            :icon="url + '255673616342056961.png'"
             socialLink="https://saku.dev"
         />
 
@@ -49,7 +49,18 @@
         <HomeMeetOurStaffCard class="col-span-2"
             name="VoidInVoid" 
             role="Developer"
-            icon="https://cdn.discordapp.com/avatars/121387133821911040/dc97dbb6bebdd319bb47ec7c288a4f6c.png?size=256"
+            :icon="url + '121387133821911040.png'"
         />
     </div>
 </template>
+
+<script>
+export default {
+    name:"StaffList",
+    data() {
+        return {
+            url:"https://spd.95degrees.cafe/avatar/"
+        }
+    }
+}
+</script>
