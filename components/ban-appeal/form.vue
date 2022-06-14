@@ -1,6 +1,6 @@
 <template>
     <Card class="md:-mx-6">
-        <form @submit.prevent="sendForm" v-if="!sentForm">
+        <form @submit.prevent="sendForm" v-if="!sendingStatus.hideForm">
 
             <!-- discord name -->
             <label for="discord-name">discord username and tag</label>
@@ -18,12 +18,20 @@
             
         </form>
 
-        <div id="form-block" class="absolute top-0 bottom-0 left-0 right-0" v-if="sending"></div>
+        <!-- if sending -->
+        <div v-if="sendingStatus.sending">
+            <p>your appeal is being sent to our staff...</p>
+        </div>
 
         <!-- if sent -->
-        <div v-if="sentForm">
+        <div v-if="sendingStatus.sent">
             <p>your appeal has been sent to our staff.</p>
             <p>a staff member may try to friend request you via discord to discuss your appeal.</p>
+        </div>
+
+        <!-- if error -->
+        <div v-if="sendingStatus.error">
+            <p>an error occurred sending your appeal, please check back later.</p>
         </div>
     </Card>
 </template>
@@ -39,23 +47,28 @@ export default {
                 discordName:"",
                 reason:""
             },
-            sending:false,
-            sentForm:false,
-            error:null
+            sendingStatus:{
+                hideForm:false,
+                sending:false,
+                sent:false,
+                error:null
+            }
         }
     },
     methods:{
         async sendForm() {
-            this.sending = true;
+            this.sendingStatus.hideForm = true;
+            this.sendingStatus.sending = true;
             try {
                 await axios.post("/api/ban-appeal", {
                     username:this.formData.discordName,
                     reason:this.formData.reason
                 });
-                this.sending = false;
-                this.sentForm = true;
+                this.sendingStatus.sending = false;
+                this.sendingStatus.sent = true;
             } catch (err) {
-                this.error = "an error occurred sending this form - try again later";
+                this.sendingStatus.sending = false;
+                this.sendingStatus.error = "an error occurred sending this form - try again later";
                 console.error(err);
             };
         }

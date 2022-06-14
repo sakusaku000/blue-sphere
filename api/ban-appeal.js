@@ -12,16 +12,14 @@ module.exports = async (req, res) => {
                 embeds:[
                     {
                         color:9816830,
-                        fields:[
-                            {
-                                name:"Discord username",
-                                value:data.username
-                            },
-                            {
-                                name:"Appeal reason",
-                                value:data.reason
-                            }
-                        ]
+                        author:{
+                            name:"Ban Appeal",
+                            icon_url:"https://cdn.discordapp.com/attachments/887325575943958608/984802032152113182/logo.png"
+                        },
+                        footer:{
+                            text:`from: ${data.username}`
+                        },
+                        description:data.reason
                     }
                 ]
             });
