@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '95 Degrees - Discord Community',
+    title: '95 Degrees Cafe - Discord Community',
     htmlAttrs: {
       lang: 'en'
     },
@@ -44,5 +44,8 @@ export default {
   buildModules: [
     '@nuxtjs/tailwindcss',
   ],
-  target: 'static'
+  target: 'static',
+  build: {
+    publicPath: '/assets/'
+  }
 }
