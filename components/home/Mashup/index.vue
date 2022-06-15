@@ -1,7 +1,7 @@
 <template>
     <div class="relative">
         <!-- background video -->
-        <HomeMashupBackground/>
+        <!-- <HomeMashupBackground/> -->
         <!-- content -->
         <HomeMashupMain/>
     </div>
