@@ -2,20 +2,17 @@
     <div id="main">
         <!-- landing -->
         <HomeLanding/>
-
-        <!-- Navbar (sticky after landing) -->
-        <NavBar/>
         
         <!-- who are we? -->
         <HomeWhoAreWe/>
         <!-- server features -->
         <HomeFeatures/>
 
-        <!-- Meet our staff -->
-        <HomeMeetOurStaff/>
-
         <!-- Mashup -->
         <HomeMashup/>
+
+        <!-- Meet our staff -->
+        <HomeMeetOurStaff/>
 
         <!-- Merch -->
         <HomeMerch/>
