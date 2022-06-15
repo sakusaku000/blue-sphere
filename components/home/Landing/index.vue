@@ -1,5 +1,5 @@
 <template>
-    <div id="landing" class="text-white h-auto sm:h-screen py-20 md:p-0 shadow-lg flex flex-col gap-7 2xl:gap-10 items-center justify-center select-none z-50">
+    <div id="landing" class="text-white h-auto sm:h-screen py-20 md:p-0 flex flex-col gap-7 2xl:gap-10 items-center justify-center select-none">
         <HomeLandingBackground/>
         <HomeLandingLogo/>
         <HomeLandingJoinSocials/>
@@ -15,7 +15,7 @@ export default {
 
 <style scoped>
     #landing {
-        background-image:url(~/assets/bg/v2-grad1.png);
-        background-size:cover;
+        background-image:url(~/assets/mashup/mashup_bg_loop_static_dark.png);
+        @apply bg-cover bg-center
     }
 </style>

@@ -1,12 +1,12 @@
 <template>
-    <div class="z-50 text-center filter drop-shadow-xl">
+    <div class="z-50 text-center filter drop-shadow-sm">
         <div class="mb-4">
             <a href="https://discord.gg/pGNTBA5Nkk" target="_blank">
                 <MainButton><LogoDiscord class="w-8 mr-4"/>join us: discord.gg/95degrees</MainButton>
             </a>
         </div>
         <div>
-            <span class="text-gray-100">or find us on</span>
+            <span class="text-gray-100">& find us on</span>
             <div class="flex items-center justify-center gap-6 mt-2">
                 <a href="https://twitter.com/95DegreesCafe" target="_blank" title="Twitter">
                     <LogoTwitter class="w-8 social-link"/>

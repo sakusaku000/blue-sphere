@@ -7,10 +7,10 @@
 
 <script>
 export default {
-    name:"BanAppealView",
+    name:"BanAppealPage",
     layout:"secondary",
     head:{
-        title:"Ban Appeal - 95 Degrees"
+        title:"Ban Appeal - 95 Degrees Cafe"
     }
 }
 </script>

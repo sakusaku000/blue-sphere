@@ -1,5 +1,5 @@
 <template>
-    <div id="main">
+    <div id="home">
         <!-- landing -->
         <HomeLanding/>
         
@@ -24,6 +24,6 @@
 
 <script>
 export default {
-    name:"IndexPage"
+    name:"HomePage"
 }
 </script>
