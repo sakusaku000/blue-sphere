@@ -1,5 +1,5 @@
 <template>
-    <div id="landing" class="text-white h-auto sm:h-screen py-20 md:p-0 flex flex-col gap-7 2xl:gap-10 items-center justify-center select-none">
+    <div id="landing" class="text-white h-auto sm:h-screen py-32 md:p-0 flex flex-col gap-7 2xl:gap-10 items-center justify-center select-none">
         <HomeLandingBackground/>
         <HomeLandingLogo/>
         <HomeLandingJoinSocials/>
