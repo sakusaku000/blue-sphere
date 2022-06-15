@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '95 Degrees Cafe - Discord Community',
+    title: '95 Degrees Cafe ☕',
     htmlAttrs: {
       lang: 'en'
     },
@@ -9,7 +9,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name:"title", content:"95 Degrees - Discord Community"},
+      { name:"title", content:"95 Degrees Cafe"},
       { name:"description", content:"Serving coffee and conversation 24/7 since 2016 - 95 Degrees is a welcoming Discord server with many exclusive features."},
       { name:"keywords", content:"discord, server, community, 95 degrees, cafe"},
       { name:"robots", content:"index, follow"},

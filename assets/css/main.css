@@ -1,6 +1,6 @@
 html, body {
     scroll-behavior: smooth;
-    @apply bg-gray-100 overflow-x-hidden;
+    @apply bg-white overflow-x-hidden;
 }
 
 ::selection {
