@@ -3,9 +3,9 @@
         <!-- LEFT -->
         <div class="row-start-2 lg:row-start-1">
             <HomeFeaturesThumbnailCollection 
-            :pic1="require('~/assets/features/smp/placeholder.png')" 
-            :pic2="require('~/assets/features/smp/placeholder.png')" 
-            :pic3="require('~/assets/features/smp/placeholder.png')"/>
+            :pic1="require('~/assets/features/smp/scr1.png')" 
+            :pic2="require('~/assets/features/smp/scr2.png')" 
+            :pic3="require('~/assets/features/smp/scr3.png')"/>
         </div>
 
         <!-- RIGHT -->
