@@ -10,12 +10,12 @@
 
 <style scoped>
     h1 {
-        @apply text-5xl font-bold text-brand-dark font-title mb-4;
+        @apply text-3xl lg:text-5xl font-bold text-brand-dark font-title mb-4;
     }
     hr {
         @apply mb-4;
     }
     p {
-        @apply text-justify
+        @apply text-justify text-base xl:text-lg
     }
 </style>

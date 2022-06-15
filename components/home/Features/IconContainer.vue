@@ -3,3 +3,9 @@
         <slot/>
     </div>
 </template>
+
+<style scoped>
+    svg {
+        @apply w-full
+    }
+</style>
