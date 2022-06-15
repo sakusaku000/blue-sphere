@@ -1,5 +1,5 @@
 <template>
-    <div class="relative">
+    <div id="mashup" class="relative">
         <!-- background video -->
         <!-- <HomeMashupBackground/> -->
         <!-- content -->

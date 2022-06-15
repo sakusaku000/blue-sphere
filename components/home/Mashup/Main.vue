@@ -1,5 +1,5 @@
 <template>
-    <Container id="mashup">
+    <Container>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-center md:text-left items-center z-50 filter drop-shadow text-white">
             <div>
                 <img class="mb-8 md:w-5/6" src="~/assets/logo/mashup2022.png" alt="95 Degrees Mashup 2022" draggable="false">

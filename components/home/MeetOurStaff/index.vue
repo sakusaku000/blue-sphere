@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-brand-light text-white border-t border-b border-brand-dark">
-        <Container class="filter drop-shadow-xl" id="meet-our-staff">
+    <div id="meet-our-staff" class="bg-brand-light text-white border-t border-b border-brand-dark">
+        <Container class="filter drop-shadow-xl">
             <!-- staff -->
             <h1 class="title text-current text-center">meet our staff</h1>
             <HomeMeetOurStaffList class="mb-10 md:mb-24"/>
