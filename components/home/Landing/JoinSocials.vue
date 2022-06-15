@@ -1,7 +1,7 @@
 <template>
-    <div class="z-50 mt-16 text-center filter drop-shadow-xl">
+    <div class="z-50 text-center filter drop-shadow-xl">
         <div class="mb-4">
-            <a href="https://discord.gg/95degrees" target="_blank">
+            <a href="https://discord.gg/pGNTBA5Nkk" target="_blank">
                 <MainButton><LogoDiscord class="w-8 mr-4"/>join us: discord.gg/95degrees</MainButton>
             </a>
         </div>
