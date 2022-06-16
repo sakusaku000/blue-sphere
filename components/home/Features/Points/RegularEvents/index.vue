@@ -16,6 +16,7 @@
         <!-- RIGHT -->
         <div>
             <HomeFeaturesThumbnailCollection 
+            id="regevents"
             :pic1="require('~/assets/features/events/amongus.png')" 
             :pic2="require('~/assets/features/events/gartic.png')" 
             :pic3="require('~/assets/features/events/teamtournament.png')"

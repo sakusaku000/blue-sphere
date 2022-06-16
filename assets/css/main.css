@@ -14,26 +14,31 @@ html, body {
     @apply text-2xl md:text-4xl mb-4
 }
 
-.icon-container {
-    @apply w-16 h-16 md:w-24 md:h-24 p-4 bg-gray-500 text-white rounded-xl shadow-xl transform -rotate-6 relative lg:-top-12 lg:-left-12 flex items-center justify-center;
+/* anims */
+.fadeDown {
+    animation:fadeDown 0.5s forwards ease;
 }
-.icon-container-right {
-    @apply rotate-6 lg:-top-12 -left-3 lg:left-12
-}
-.features-box-layout-left {
-    @apply grid;
-    grid-template-columns:50px 1fr;
-}
-.features-box-layout-right {
-    @apply grid;
-    grid-template-columns:1fr 50px;
+@keyframes fadeDown {
+    from {
+        opacity:0;
+        transform:translateY(-40px);
+    }
+    to {
+        opacity:1;
+        transform:translateY(0px);
+    }
 }
 
-@media (min-width: 768px) {
-    .features-box-layout-left {
-        grid-template-columns:100px 1fr;
+.fadeScale {
+    animation:fadeScale 0.5s forwards ease;
+}
+@keyframes fadeScale {
+    from {
+        opacity:0;
+        transform:scale(0.9);
     }
-    .features-box-layout-right {
-        grid-template-columns:1fr 100px;
+    to {
+        opacity:1;
+        transform:scale(1);
     }
 }

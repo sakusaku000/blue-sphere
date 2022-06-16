@@ -16,15 +16,15 @@
         <div>            
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-5">
                 <!-- guardian -->
-                <HomeFeaturesPointsCustomBotsBotDetail botName="guardian" class="col-span-2 xl:col-span-1" :botIcon="require('~/assets/features/bots/guardian.png')">
+                <HomeFeaturesPointsCustomBotsBotDetail id="guardian" botName="guardian" class="col-span-2 xl:col-span-1" :botIcon="require('~/assets/features/bots/guardian.png')">
                     our main bot that offers many different features, including member quotes, community events, an xp + levelling system, and a customisable profile.
                 </HomeFeaturesPointsCustomBotsBotDetail>
                 <!-- radio -->
-                <HomeFeaturesPointsCustomBotsBotDetail botName="95 degrees radio" class="col-span-2 xl:col-span-1" :botIcon="require('~/assets/features/bots/radio.png')">
+                <HomeFeaturesPointsCustomBotsBotDetail id="ninetyfive-radio" botName="95 degrees radio" class="col-span-2 xl:col-span-1" :botIcon="require('~/assets/features/bots/radio.png')">
                     95 degrees' very own exclusive radio station! always playing songs of many different genres + user requests 24/7 whenever you wanna listen! 
                 </HomeFeaturesPointsCustomBotsBotDetail>
                 <!-- bannerista -->
-                <HomeFeaturesPointsCustomBotsBotDetail botName="bannerista" :botIcon="require('~/assets/features/bots/bannerista.png')" class="col-span-2">
+                <HomeFeaturesPointsCustomBotsBotDetail id="bannerista" botName="bannerista" :botIcon="require('~/assets/features/bots/bannerista.png')" class="col-span-2">
                     a bot that tracks activity in the server by our members and generates a daily server banner with the most active to least active members for that day.
                 </HomeFeaturesPointsCustomBotsBotDetail>
             </div>
