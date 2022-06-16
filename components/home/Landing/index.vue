@@ -15,7 +15,7 @@ export default {
 
 <style scoped>
     #landing {
-        background-image:url(~/assets/mashup/mashup_bg_loop_static_dark.png);
+        background-image:url(~/assets/mashup/mashup_bg_loop_static_n.png);
         @apply bg-cover bg-center
     }
 </style>
