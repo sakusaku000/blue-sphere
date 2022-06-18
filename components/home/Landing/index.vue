@@ -1,8 +1,8 @@
 <template>
-    <div id="landing" class="text-white h-auto sm:h-screen py-24 md:p-0 flex flex-col gap-7 2xl:gap-10 items-center justify-center select-none">
+    <div id="landing" class="text-white h-auto sm:h-screen py-24 md:p-0 flex flex-col gap-7 2xl:gap-10 items-center justify-center select-none overflow-hidden">
         <HomeLandingBackground/>
         <HomeLandingLogo/>
-        <HomeLandingJoinSocials/>
+        <HomeLandingJoinSocials :playAnim="true"/>
         <HomeLandingScrollDownIndicator/>
     </div>
 </template>
