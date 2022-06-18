@@ -16,20 +16,6 @@ export default {
         id:String,
         botName:String,
         botIcon:String
-    },
-    mounted() {
-        let timeout = 0;
-
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    setTimeout(() => {
-                        entry.target.classList.add("fadeScale");
-                    }, timeout);
-                }
-            });
-        });
-        observer.observe(document.querySelector(`#${this.id}`));
     }
 }
 </script>
