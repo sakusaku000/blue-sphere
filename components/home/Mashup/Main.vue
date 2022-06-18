@@ -14,7 +14,7 @@
                 <p class="text-justify">
                     the 95 degrees mashup is a yearly celebration of our community, with awards, community highlights, announcements, 
                     giveaways and so much more in one live, interactive stream! this year we celebrated six years of our community, 
-                    and if you haven't seen mashup 2022 yet, you can <span class="inline md:hidden">watch it below!</span> <span class="hidden md:inline">watch it on the left!</span>
+                    and if you haven't seen mashup 2022 yet, you can <span class="inline lg:hidden">watch it below!</span> <span class="hidden lg:inline">watch it on the left!</span>
                 </p>
             </div>
         </div>
