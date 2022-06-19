@@ -33,7 +33,8 @@ export default {
     ]
   },
   css:[
-    '~/assets/css/main.css'
+    '~/assets/css/main.css',
+    '~/assets/font/gibson/style.css'
   ],
   components: {
     dirs: [
