@@ -24,7 +24,7 @@
         width: 100%; height: 100%;
         background-image:url("https://api.saku.dev/bannerista/banner/grid");
         background-position:center;
-        filter: brightness(40%) blur(4px);
+        filter: brightness(45%) blur(4px);
         transform:scale(1.04);
         box-shadow:0px 0px 20px 10px inset #000000;
 
