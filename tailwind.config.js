@@ -5,8 +5,8 @@ module.exports = {
     darkMode: "class", // or 'media' or 'class'
     theme: {
         fontFamily:{
-            sans:["Gibson Regular", "sans-serif"],
-            title:["Gibson SemiBold", "sans-serif"]
+            sans:["Inter", "sans-serif"],
+            title:["Montserrat", "sans-serif"]
         },
         extend:{
             colors:{
