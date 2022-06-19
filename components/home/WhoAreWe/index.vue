@@ -15,6 +15,7 @@
 <style scoped>
     .grid-bg {
         position:relative;
+        overflow:hidden;
     }
     .grid-bg::before {
         content: "";
@@ -23,8 +24,9 @@
         width: 100%; height: 100%;
         background-image:url("https://api.saku.dev/bannerista/banner/grid");
         background-position:center;
-        filter: brightness(50%);
-        box-shadow:0px 0px 20px inset #000000;
+        filter: brightness(40%) blur(4px);
+        transform:scale(1.04);
+        box-shadow:0px 0px 20px 10px inset #000000;
 
         @apply bg-cover md:bg-contain;
     }
