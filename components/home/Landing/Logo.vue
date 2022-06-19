@@ -1,8 +1,8 @@
 <template>
     <div id="logo" class="flex flex-col items-center pointer-events-none z-50 filter drop-shadow-xl">
         <NinetyFive class="mb-0 md:mb-4 w-60 2xl:w-72 logoScaleInHold" id="ninetyfive-landing-logo"/>
-        <h1 class="font-title text-4xl 2xl:text-5xl text-center hidden md:block max-w-lg xl:max-w-none subFadeIn">serving coffee and conversation 24/7</h1>
-        <h1 class="font-title text-4xl 2xl:text-5xl text-center hidden md:block subFadeIn">since 2016</h1>
+        <h1 class="font-title text-4xl 2xl:text-5xl text-center hidden md:block max-w-lg xl:max-w-none subFadeHold" id="landing-sub-1">serving coffee and conversation 24/7</h1>
+        <h1 class="font-title text-4xl 2xl:text-5xl text-center hidden md:block subFadeHold" id="landing-sub-2">since 2016</h1>
     </div>
 </template>
 
@@ -10,6 +10,8 @@
 export default {
     mounted() {
         document.querySelector("#ninetyfive-landing-logo").classList.add("logoScaleInAnim");
+        document.querySelector("#landing-sub-1").classList.add("subFadeIn");
+        document.querySelector("#landing-sub-2").classList.add("subFadeIn");
     }
 }
 </script>
@@ -32,6 +34,9 @@ export default {
     }
 
     /* subtitle fade in */
+    .subFadeHold {
+        opacity:0;
+    }
     .subFadeIn {
         opacity:0;
         animation:subFadeIn 0.7s 1s forwards cubic-bezier(0.22, 1, 0.36, 1);

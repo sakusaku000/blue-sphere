@@ -1,5 +1,5 @@
 <template>
-    <div class="z-50 text-center filter drop-shadow-sm opacity-0" id="landing-joinsocials">
+    <div class="z-50 text-center filter drop-shadow-sm appearHold" id="landing-joinsocials">
         <div class="mb-4">
             <a href="https://discord.gg/pGNTBA5Nkk" target="_blank">
                 <MainButton><LogoDiscord class="w-8 mr-4"/>join us: discord.gg/95degrees</MainButton>
@@ -31,11 +31,7 @@ export default {
         playAnim:Boolean
     },
     mounted() {
-        if (this.playAnim) {
-            document.querySelector("#landing-joinsocials").classList.add("appearAnim")
-        } else {
-            document.querySelector("#landing-joinsocials").classList.remove("opacity-0")
-        }
+        document.querySelector("#landing-joinsocials").classList.add("appearAnim")
     }
 }
 </script>
@@ -45,6 +41,9 @@ export default {
         @apply text-gray-200 hover:text-gray-50 duration-100 cursor-pointer
     }
 
+    .appearHold {
+        opacity:0;
+    }
     .appearAnim {
         opacity:0;
         max-height:0px;
