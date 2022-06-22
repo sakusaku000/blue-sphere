@@ -1,5 +1,6 @@
 <template>
     <div id="ban-appeal">
+        <router-link to="/"><BanAppealBackButton/></router-link>
         <BanAppealIntro/>
         <BanAppealForm/>
     </div>
