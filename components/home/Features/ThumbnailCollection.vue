@@ -25,7 +25,6 @@ export default {
                         timeout += 200;
                         setTimeout(() => {
                             document.querySelector(`#${this.id}-img-${i+1}`).classList.add("fadeDown");
-                            console.log(`#${this.id}-img-${i+1}`)
                         }, timeout);
                     }
                 }

@@ -1,5 +1,5 @@
 <template>
-    <div id="staff-list" class="flex items-center flex-wrap lg:flex-nowrap justify-center gap-10 -mx-4">
+    <div id="staff-list" class="flex items-center flex-wrap lg:flex-nowrap justify-center lg:justify-between gap-10 -mx-4">
         <!-- nath -->
         <HomeMeetOurStaffCard class="col-span-3" 
             name="Nath" 
