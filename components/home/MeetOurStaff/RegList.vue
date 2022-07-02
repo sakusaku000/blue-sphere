@@ -1,5 +1,5 @@
 <template>
-    <div id="reg-list" class="flex items-center flex-wrap justify-center gap-4">
+    <div id="reg-list" class="flex items-center flex-wrap xl:flex-nowrap justify-center gap-4">
         <!-- ana -->
         <HomeMeetOurStaffCard class="col-span-3" 
             name="AnaArsonist"

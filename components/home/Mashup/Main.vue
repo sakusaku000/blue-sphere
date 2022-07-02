@@ -1,5 +1,5 @@
 <template>
-    <Container :smaller="true">
+    <Container>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 z-50">
             <div class="row-start-2 lg:row-start-1">
                 <div class="yt-container">
