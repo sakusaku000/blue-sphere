@@ -77,13 +77,6 @@
             :regular="true"
         />
 
-        <!-- Xycarla -->
-        <HomeMeetOurStaffCard class="col-span-3" 
-            name="Xycarla"
-            :icon="url + '272333850657423362.png'"
-            :regular="true"
-        />
-
         <!-- cleanycloth -->
         <HomeMeetOurStaffCard class="col-span-3" 
             name="cleanycloth"
