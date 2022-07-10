@@ -28,7 +28,7 @@ export default {
       { property:"twitter:image", content:"https://95degrees.cafe/nf-card.png"}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       { rel:"stylesheet", href:"https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@700;800&display=swap"}
     ]
   },
