@@ -1,12 +1,9 @@
 <template>
     <Container>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 z-50">
-            <div class="row-start-2 lg:row-start-1">
-                <div class="yt-container">
-                    <iframe class="rounded-xl shadow-xl" src="https://www.youtube.com/embed/ZkFEFrVl8hE?start=1978" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <span class="text-xs text-gray-400 lg:">(this is the 2021 mashup for now until 2022 is finished)</span>
-            </div>
+            <a href="https://www.youtube.com/watch?v=FPWqS2VleeQ&t=1874s" target="_blank" title="Watch the Mashup on YouTube">
+                <img src="~/assets/mashup/mashup_thumb.png" alt="95 Degrees Mashup 2022 Thumbnail" class="rounded-lg shadow-lg hover:opacity-80 duration-100">
+            </a>
             <div>
                 <img class="mb-6 md:w-5/6 mx-auto lg:mx-0" src="~/assets/logo/mashup2022.png" alt="95 Degrees Mashup 2022" draggable="false">
                 <hr class="mb-4">
@@ -20,20 +17,3 @@
         </div>
     </Container>
 </template>
-
-<style scoped>
-    .yt-container {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-    }
-    iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-    }
-</style>
