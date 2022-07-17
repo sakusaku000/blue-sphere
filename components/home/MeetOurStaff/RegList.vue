@@ -16,8 +16,8 @@
 
         <!-- charlie -->
         <HomeMeetOurStaffCard class="col-span-3" 
-            name="Miss Charlie"
-            :icon="url + '348412090735788033.png'"
+            name="MamaCharlie"
+            :icon="url + '590921620810366978.png'"
             :regular="true"
         />
 
