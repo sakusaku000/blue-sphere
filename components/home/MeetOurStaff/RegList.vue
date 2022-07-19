@@ -28,13 +28,6 @@
             :regular="true"
         />
 
-        <!-- nia -->
-        <HomeMeetOurStaffCard class="col-span-3" 
-            name="yknowlikenia"
-            :icon="url + '395248783396569088.png'"
-            :regular="true"
-        />
-
         <!-- ohmightyqueen -->
         <HomeMeetOurStaffCard class="col-span-3" 
             name="ohmightyqueen"
@@ -53,6 +46,13 @@
         <HomeMeetOurStaffCard class="col-span-3" 
             name="Roy"
             :icon="url + '187355065592446976.png'"
+            :regular="true"
+        />
+
+        <!-- nia -->
+        <HomeMeetOurStaffCard class="col-span-3" 
+            name="yknowlikenia"
+            :icon="url + '395248783396569088.png'"
             :regular="true"
         />
 
