@@ -7,13 +7,6 @@
             :regular="true"
         />
 
-        <!-- aeprl -->
-        <HomeMeetOurStaffCard class="col-span-3" 
-            name="aeprl"
-            :icon="url + '162945458581274624.png'"
-            :regular="true"
-        />
-
         <!-- charlie -->
         <HomeMeetOurStaffCard class="col-span-3" 
             name="MamaCharlie"
@@ -28,17 +21,17 @@
             :regular="true"
         />
 
-        <!-- lasroth -->
-        <HomeMeetOurStaffCard class="col-span-3" 
-            name="Lasroth"
-            :icon="url + '305514934597582849.png'"
-            :regular="true"
-        />
-
         <!-- lucy -->
         <HomeMeetOurStaffCard class="col-span-3" 
             name="Lucy"
             :icon="url + '205114957807747072.png'"
+            :regular="true"
+        />
+
+        <!-- nia -->
+        <HomeMeetOurStaffCard class="col-span-3" 
+            name="yknowlikenia"
+            :icon="url + '395248783396569088.png'"
             :regular="true"
         />
 
