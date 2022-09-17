@@ -11,7 +11,7 @@
         </div>
 
         <!-- ban appeal -->
-        <HomeFooterSectionBanAppeal/>
+        <!-- <HomeFooterSectionBanAppeal/> -->
 
         <!-- copyright - credit -->
         <p class="mt-5">© 2022 95 Degrees</p>
