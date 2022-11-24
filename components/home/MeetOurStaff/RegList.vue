@@ -49,10 +49,10 @@
             :regular="true"
         />
 
-        <!-- nia -->
+        <!-- koli -->
         <HomeMeetOurStaffCard class="col-span-3" 
-            name="yknowlikenia"
-            :icon="url + '395248783396569088.png'"
+            name=".kolipop"
+            :icon="url + '235834280138375173.png'"
             :regular="true"
         />
 

@@ -30,11 +30,12 @@
             :icon="url + '415080865236779010.png'"
         />
 
-        <!-- koli -->
+        <!-- nia -->
         <HomeMeetOurStaffCard class="col-span-2"
-            name=".kolipop" 
+            name="yknowlikenia" 
             role="Barista"
-            :icon="url + '235834280138375173.png'"
+            :icon="url + '395248783396569088.png'"
+            socialLink="https://yknowlikenia.neocities.org/"
         />
 
         <!-- saku -->
