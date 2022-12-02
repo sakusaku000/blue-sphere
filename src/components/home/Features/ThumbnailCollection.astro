@@ -1,0 +1,21 @@
+---
+export interface Props {
+    pic1:string;
+    pic2:string;
+    pic3:string;
+    reverse:boolean;
+}
+const {pic1, pic2, pic3, reverse} = Astro.props;
+---
+
+<div class={`flex lg:flex-col items-center justify-center lg:justify-start lg:-mb-40 lg:-mt-40 gap-5 lg:gap-0 relative ${(reverse) ? 'lg:left-24 xl:left-10 2xl:left-6 ' : 'lg:-left-24 xl:-left-10 2xl:-left-6'}`}>
+    <img src={pic1} class={`order-1 lg:order-none ${(reverse) ? `lg:ml-60` : `lg:-ml-60`}`} draggable="false">
+    <img src={pic2} class={`order-3 lg:order-none lg:-mt-24`} draggable="false">
+    <img src={pic3} class={`order-2 lg:order-none lg:-mt-24 ${(reverse) ? `lg:-ml-60` : `lg:ml-60`}`} draggable="false">
+</div>
+
+<style>
+    img {
+        @apply rounded-lg lg:rounded-2xl shadow w-52 lg:w-96;
+    }
+</style>

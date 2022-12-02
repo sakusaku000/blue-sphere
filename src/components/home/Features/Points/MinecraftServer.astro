@@ -1,0 +1,31 @@
+---
+import {Icon} from 'astro-icon';
+import Layout from "../Layout.astro";
+import IconContainer from "../IconContainer.astro";
+import ThumbnailCollection from '../ThumbnailCollection.astro';
+---
+
+<Layout>
+    <!-- LEFT -->
+    <div>
+        <ThumbnailCollection
+        pic1="/assets/features/smp/scr1.png" 
+        pic2="/assets/features/smp/scr2.png" 
+        pic3="/assets/features/smp/scr3.png"
+        reverse={false}
+        />
+    </div>
+    
+    <!-- RIGHT -->
+    <div>
+        <IconContainer>
+            <Icon name="calendar"/>
+        </IconContainer>
+        <h1 class="features-header">minecraft smp</h1>
+        <hr class="features-divider">
+        <p class="features-details">
+            we have our very own minecraft smp server! community members level 20+ can feel free to join in, build as they like and collaborate with other members. 
+            we also host events within the server so keep an eye out!
+        </p>
+    </div>
+</Layout>

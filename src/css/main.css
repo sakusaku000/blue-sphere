@@ -14,6 +14,16 @@ html, body {
     @apply text-2xl md:text-4xl mb-4
 }
 
+.features-header {
+    @apply text-3xl lg:text-5xl font-bold text-brand-dark font-title mb-4;
+}
+.features-divider {
+    @apply mb-4;
+}
+.features-details {
+    @apply text-justify text-base xl:text-lg;
+}
+
 /* anims */
 .fadeDown {
     animation:fadeDown 0.5s forwards ease;
