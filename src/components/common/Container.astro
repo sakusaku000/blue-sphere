@@ -1,10 +1,11 @@
 ---
 export interface Props {
     smaller:boolean;
+    customClass:string
 }
-const {smaller} = Astro.props;
+const {smaller, customClass} = Astro.props;
 ---
 
-<div class={`container mx-auto px-10 md:px-20 ${(smaller) ? 'py-14 md:py-20' : 'py-20 md:py-40'}`}>
+<div class={`container mx-auto px-10 md:px-20 ${(smaller) ? 'py-14 md:py-20' : 'py-20 md:py-40'} ${customClass}`}>
     <slot/>
 </div>
