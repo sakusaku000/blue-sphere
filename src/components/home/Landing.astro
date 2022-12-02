@@ -1,0 +1,26 @@
+---
+import Background from "./Landing/Background.astro";
+import NinetyFiveLogo from "./Landing/NinetyFiveLogo.astro";
+import SocialLinks from "./Landing/SocialLinks.astro";
+import ScrollIndicator from "./Landing/ScrollIndicator.astro";
+---
+
+<div id="landing" class="text-white h-screen md:p-0 flex flex-col gap-7 2xl:gap-10 items-center justify-center select-none overflow-hidden">
+    <Background/>
+    <NinetyFiveLogo/>
+    <SocialLinks/>
+    <ScrollIndicator/>
+</div>
+
+<style>
+    #landing {
+        background-image:url(/assets/bg/v2-grad-dark.png);
+        @apply bg-cover bg-center;
+    };
+
+    @media (min-width:768px) {
+        #landing {
+            background-image:url(/assets/mashup/mashup_bg_loop_static_n.png);
+        }
+    }
+</style>
