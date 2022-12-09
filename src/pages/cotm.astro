@@ -1,0 +1,20 @@
+---
+import DefaultLayout from "../layouts/DefaultLayout.astro";
+import Container from "../components/common/Container.astro";
+import COTMList from "../components/cotm/COTMList.astro";
+
+const url = "https://api.saku.dev"
+---
+
+<DefaultLayout title="Customer of the Month" showNav={true}>
+    <Container customClass="" smaller={true}>
+        <h1 class="title text-center">customer of the month</h1>
+        <p class="text-center">
+            this is a full list of every COTM we've ever had.<br>
+            unfortunately this is no longer given out as of january 2022.
+        </p>
+    </Container>
+    <Container customClass="flex items-center justify-around gap-10" smaller={true}>
+        <COTMList/>
+    </Container>
+</DefaultLayout>
