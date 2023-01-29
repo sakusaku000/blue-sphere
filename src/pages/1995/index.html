@@ -26,6 +26,12 @@
     <!-- TODO: Add SICK midi -->
 
     <BODY style="max-width:1000px; margin-left:auto; margin-right:auto;">
+        <audio src="/assets/1995/scary.mp3" id="scary-midi" loop autoplay></audio>
+
+        <div style="position:fixed; top:10px; left:10px;">
+            <button onclick="playCoolMusic()">TOGGLE COOL MUSIC !!</button>
+        </div>
+
         <CENTER>
             <DIV style="margin-bottom:30px; display:flex; justify-content:center;">
                 <IMG src="/assets/1995/800x600.gif" alt="best viewed 800x600">
@@ -137,5 +143,17 @@
                 </a>
             </FOOTER>
         </CENTER>
+
+        <SCRIPT>
+            function playCoolMusic() {
+                const music = document.getElementById("scary-midi");
+
+                if (music.paused) {
+                    music.play();
+                } else {
+                    music.pause();
+                };
+            }
+        </SCRIPT>
     </BODY>
 </HTML>
