@@ -1,6 +1,6 @@
 html, body {
     scroll-behavior: smooth;
-    @apply bg-white overflow-x-hidden antialiased;
+    @apply bg-white overflow-x-hidden antialiased text-sm md:text-base;
 }
 
 ::selection {
