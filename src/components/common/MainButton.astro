@@ -1,7 +1,7 @@
 ---
-const {customClass} = Astro.props;
+const {customClass, dark} = Astro.props;
 ---
 
-<div class={`p-3 px-6 text-gray-50 ring-2 ring-gray-50 rounded-xl hover:bg-gray-50 hover:text-gray-900 duration-200 lg:text-lg 2xl:text-xl cursor-pointer flex items-center ${customClass}`}>
+<div class={`${(dark) ? 'text-gray-900 ring-brand-light hover:bg-brand-light hover:text-gray-50' : 'text-gray-50 ring-gray-50 hover:bg-gray-50 hover:text-gray-900'} p-3 px-6 ring-2 rounded-xl duration-200 lg:text-lg 2xl:text-xl cursor-pointer flex items-center ${customClass}`}>
     <slot/>
 </div>
