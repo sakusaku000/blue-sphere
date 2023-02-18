@@ -1,0 +1,25 @@
+---
+import Container from "../common/Container.astro";
+import MainButton from "../common/MainButton.astro";
+---
+
+<div id="wiki">
+    <Container customClass="filter drop-shadow-xl text-center md:text-left" smaller={true}>
+        <div class="flex items-center justify-center md:justify-between flex-wrap">
+            <div>
+                <h1 class="title text-current">95 degrees wiki</h1>
+                <p class="text-lg max-w-xl">
+                    our server has a wiki which details information for members old and new,
+                    it's worth a read if you want to get started and learn more about the server!
+                </p>
+            </div>
+            <div>
+                <a href="https://wiki.95degrees.cafe" target="_blank">
+                    <MainButton customClass="mt-8 lg:mt-0" dark={true}>
+                        visit the wiki
+                    </MainButton>
+                </a>
+            </div>
+        </div>
+    </Container>
+</div>
