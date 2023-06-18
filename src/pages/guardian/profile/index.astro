@@ -1,0 +1,15 @@
+---
+export const prerender = false;
+
+import DiscordOAuth2 from "discord-oauth2";
+const oauth = new DiscordOAuth2({
+    clientId:import.meta.env.DISCORD_CLIENT_ID,
+    clientSecret:import.meta.env.DISCORD_CLIENT_SECRET
+});
+
+import DefaultLayout from "../../../layouts/DefaultLayout.astro";
+---
+
+<DefaultLayout title="Guardian Profile Editor">
+    <h1>Cum ass</h1>
+</DefaultLayout>
