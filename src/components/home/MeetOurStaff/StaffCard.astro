@@ -6,7 +6,7 @@ export interface Props {
     regular?:boolean
     socialLink?:string
 }
-const {id, name, role, icon, regular, socialLink, customClass} = Astro.props;
+const {name, role, icon, regular, socialLink} = Astro.props;
 ---
 
 <a href={socialLink} target="_blank">
